@@ -6,11 +6,11 @@ Simple PowerShell Script to install a printer driver and printer via Microsoft I
 
 ##### Install: #####
 
-`` powershell.exe ExecutionPolicy Bypass .\Install-Printer.ps1 ``
+`` powershell.exe -ExecutionPolicy Bypass .\Install-Printer.ps1 ``
 
 ##### Remove: ##### 
 
-`` powershell.exe ExecutionPolicy Bypass .\Remove-Printer.ps1 ``
+`` powershell.exe -ExecutionPolicy Bypass .\Remove-Printer.ps1 ``
 
 ##### Detection Rule for Intune: ##### 
 
